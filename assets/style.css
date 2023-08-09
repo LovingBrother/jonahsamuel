@@ -8,10 +8,14 @@ body {
   }
   
   .container {
-    max-width: 600px;
+    max-width: 500px;
+    width: 60%;
+    /* height: 100vh; */
     margin: 0 auto;
-    padding: 40px;
+    padding: 0px 40px;
     text-align: center;
+    background-color: rgb(71, 86, 71);
+    border-radius: 50px;
   }
   
   .profile {
@@ -28,6 +32,10 @@ body {
     margin-bottom: 20px;
   }
   
+
+  .profile-1{
+    color: #fff;
+  }
   
   h1 {
     color: #333;
@@ -45,10 +53,20 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     color: #fff;
-    background-color: #007bff;
+    /* background-color: #007bff; */
     border-radius: 5px;
   }
   
   a:hover {
-    background-color: #0056b3;
+    background-color: rgba(128, 128, 128, 0.189);
   }
+
+
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
