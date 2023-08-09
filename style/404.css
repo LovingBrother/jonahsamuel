@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets/404-background.png"), url("https://media.discordapp.net/attachments/1126373408414908431/1138029735264387102/image.png?width=1202&height=676");
+    background-image: url("/assets/404-background.png");
     background-size: cover;
     
     font-family: Arial, sans-serif;

@@ -1,0 +1,9 @@
+body {
+    background-image: url("/assets/404-background.png");
+    background-size: cover;
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f0f0f0; */
+  }
